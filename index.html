@@ -19,7 +19,7 @@
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
-            background-size: cover;;
+            background-size: cover;
         }
     
         body{
@@ -71,7 +71,8 @@
         .arrow{
             width: 32px;
             height: 64px;
-            /* background-color: blue; */
+            /* background: url("./assets/img/chevron_left.png"); */
+            background-color: rgb(73, 7, 154);
             position: fixed;
             top: 50%;
             margin-top: -27px;
@@ -79,10 +80,10 @@
             text-indent: -9999px;
             overflow: hidden;
             font-size: 90px;
-            /* opacity: 0.8; */
-            /* border: none !important; */
-            /* text-decoration: none !important; */
-            /* transition: 0.2s opacity;  */
+            opacity: 0.8; 
+            border: none !important;
+            text-decoration: none !important;
+            transition: 0.2s opacity; 
         }
 
         .arrow:hover{
@@ -122,26 +123,27 @@
     
         #impress #dark{
             width: 675px;
+            left: 400px;
         }
 
         #dark h2{
-            left: 0;
-            top: 135px;
+            top: 55px;
+            left: 110px;
             width: 400px;
             font-size: 30px;
         }
 
         #dark p{
-            left: -10px;
+            left: 100px;
             text-align: justify;
             text-indent: 16px;
-            top: 225px;
+            top: 455px;
             width: 365px;
         }
     
         #dark img {
-            right: 0;
-            top: 30px;
+            right: -200px;
+            top: 100px;
         }
     
         #impress #height{
@@ -240,7 +242,7 @@
             Nyctophobia<br>
             Who wasn't afraid of the dark as a little squirt, I mean honestly.  So that's fair, nothing wrong with that...
         </p>
-        <img src="./assets/img/dark_scared_01.jpg" width="289" height="400" alt="">
+        <img src="./assets/img/dark_scared_01.jpg" width="789" height="340" alt="">
 
     </div>
 
@@ -275,6 +277,7 @@
 
     </div>
 
+    <!-- <i id="arrowLeft" class="fas fa-chevron-left arrow"></i> -->
     <a href="" id="arrowLeft" class="arrow">&lt;</a>
     <a href="" id="arrowRight" class="arrow">&gt;</a>
 
