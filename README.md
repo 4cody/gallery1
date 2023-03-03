@@ -1,2 +1,2 @@
 # gallery1
-Exposition of the expressJS framework.  
+Exposition of the impressJS framework.  
